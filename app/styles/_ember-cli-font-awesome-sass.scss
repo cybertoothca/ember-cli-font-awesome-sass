@@ -1,0 +1,13 @@
+/**
+ * The `$fa-font-path` is where the fonts have been copied during the
+ * `ember-cli-font-awesome-sass` addon installation.
+ * OVERRIDE: if you want to point to fonts installed elsewhere, change this
+ * variable before you `@import "ember-cli-font-awesome-sass"`.
+ */
+$fa-font-path: '/assets/font-awesome/fonts';
+
+/**
+ * The `ember-cli-font-awesome-sass` addon installs font-awesome via bower
+ * and then compiles font-awesome using their SASS source.
+ */
+@import "../../bower_components/font-awesome/scss/font-awesome";
