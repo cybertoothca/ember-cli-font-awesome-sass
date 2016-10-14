@@ -1,11 +1,12 @@
 /*jshint node:true*/
 module.exports = {
   description: '',
-
+  normalizeEntityName: function () {
+  },
   afterInstall: function(options) {
-    return Ember.RSVP.all([
-      this.addAddonToProject('ember-cli-sass'),
-      this.addBowerPackageToProject('font-awesome')
-    ]);
+    return this.addAddonToProject('ember-cli-sass')
+      .then(() => {
+        return this.addBowerPackageToProject('font-awesome');
+      })
   }
 };
