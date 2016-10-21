@@ -1,4 +1,4 @@
-# ember-cli-font-awesome-sass
+# ember-cli-font-awesome-sass [![GitHub version](https://badge.fury.io/gh/cybertoothca%2Fember-cli-font-awesome-sass.svg)](https://badge.fury.io/gh/cybertoothca%2Fember-cli-font-awesome-sass)
 
 [![npm version](https://badge.fury.io/js/ember-cli-font-awesome-sass.svg)](https://badge.fury.io/js/ember-cli-font-awesome-sass) [![Build Status](https://travis-ci.org/cybertoothca/ember-cli-font-awesome-sass.svg)](https://travis-ci.org/cybertoothca/ember-cli-font-awesome-sass) [![Code Climate](https://codeclimate.com/github/cybertoothca/ember-cli-font-awesome-sass/badges/gpa.svg)](https://codeclimate.com/github/cybertoothca/ember-cli-font-awesome-sass) [![ember-observer-badge](http://emberobserver.com/badges/ember-cli-font-awesome-sass.svg)](http://emberobserver.com/addons/ember-cli-font-awesome-sass) [![License](https://img.shields.io/npm/l/ember-cli-font-awesome-sass.svg)](LICENSE.md)
 
@@ -46,24 +46,24 @@ you want is being brought into your application.
 
 # Ember Addon Building And Testing
 
-## Installation
+## Setup
 
 * `git clone` this repository
 * `npm install`
 * `bower install`
 
-## Running
+## Running The Dummy Application
 
 * `ember server`
 * Visit your app at http://localhost:4200.
 
-## Running Tests
+## Running Addon Tests
 
 * `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
-## Building
+## Building The Addon
 
 * `ember build`
 
@@ -93,4 +93,5 @@ command (that can be run anywhere):
 `npm uninstall -g ember-cli-font-awesome-sass`
 1. Remove the reference to the `ember-cli-font-awesome-sass` 
 in your _other_ project's `package.json`.
-1. Run an `npm prune` from the root of your _other_ project's command line.
+1. Run an `npm prune` from the root of your _other_ project's 
+command line.
