@@ -43,7 +43,12 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "font-awesome",
+    "font-awesome-sass",
+    "sass",
+    "scss",
+    "cybertooth"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6"
