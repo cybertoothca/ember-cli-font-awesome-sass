@@ -4,7 +4,7 @@
  * OVERRIDE: if you want to point to fonts installed elsewhere, change this
  * variable before you `@import 'ember-cli-font-awesome-sass'`.
  */
-$fa-font-path: '/assets/font-awesome/fonts' !default;
+$fa-font-path: './font-awesome/fonts' !default;
 
 /**
  * The `ember-cli-font-awesome-sass` addon installs font-awesome via bower
