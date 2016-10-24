@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-font-awesome-sass",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This addon installs font-awesome fonts files and sets you up to compile the font-awesome sass into your app.  Understand that this addon is for Ember applications that are compiling their styles using SASS.  If your Ember application is using pure CSS or LESS, than this addon is not for you.",
   "directories": {
     "doc": "doc",
