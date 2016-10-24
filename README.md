@@ -35,12 +35,27 @@ source into your application's stylesheet:
     @import "ember-cli-font-awesome-sass";
     ...
 
+
+### Alternate Font Path?
+
+By default, this addon takes care of the font paths for you.
+If for some reason you need to customize this path, you can do so
+by supplying the `$fa-font-path` variable value before you import
+`ember-cli-font-awesome-sass`.  __Make sure the path you specify includes
+the trailing slash!__
+
+    // `app/styles/app.scss`
+    ...
+    $fa-font-path: '/some/absolute/path'
+    @import 'ember-cli-font-awesome-sass';
+    ...
+
 ### Troubleshooting And Tips
 
 1. You need `ember-cli-sass` to be configured in your application.  This means
 that by default your styles have been compiled inside your
 `app/styles/app.scss` file.  If you've adjusted the configuration to use a
-different file, then you must add the `@import "ember-cli-font-awesome-sass"`
+different file, then you must add the `@import 'ember-cli-font-awesome-sass'`
 directive there.
 1. As font-awesome version updates are made available, simply reinstall your
 bower packages and in some cases update your `bower.json` to ensure the version
