@@ -1,10 +1,12 @@
 # ember-cli-font-awesome-sass [![GitHub version](https://badge.fury.io/gh/cybertoothca%2Fember-cli-font-awesome-sass.svg)](https://badge.fury.io/gh/cybertoothca%2Fember-cli-font-awesome-sass)
 
-[![npm version](https://badge.fury.io/js/ember-cli-font-awesome-sass.svg)](https://badge.fury.io/js/ember-cli-font-awesome-sass) [![Build Status](https://travis-ci.org/cybertoothca/ember-cli-font-awesome-sass.svg)](https://travis-ci.org/cybertoothca/ember-cli-font-awesome-sass) [![Code Climate](https://codeclimate.com/github/cybertoothca/ember-cli-font-awesome-sass/badges/gpa.svg)](https://codeclimate.com/github/cybertoothca/ember-cli-font-awesome-sass) ![Dependencies](https://david-dm.org/cybertoothca/ember-cli-font-awesome-sass.svg) [![ember-observer-badge](http://emberobserver.com/badges/ember-cli-font-awesome-sass.svg)](http://emberobserver.com/addons/ember-cli-font-awesome-sass) [![License](https://img.shields.io/npm/l/ember-cli-font-awesome-sass.svg)](LICENSE.md)
+[![npm version](https://badge.fury.io/js/ember-cli-font-awesome-sass.svg)](https://badge.fury.io/js/ember-cli-font-awesome-sass) [![CircleCI](https://circleci.com/gh/cybertoothca/ember-cli-font-awesome-sass.svg?style=shield)](https://circleci.com/gh/cybertoothca/ember-cli-font-awesome-sass) [![Code Climate](https://codeclimate.com/github/cybertoothca/ember-cli-font-awesome-sass/badges/gpa.svg)](https://codeclimate.com/github/cybertoothca/ember-cli-font-awesome-sass) ![Dependencies](https://david-dm.org/cybertoothca/ember-cli-font-awesome-sass.svg) [![ember-observer-badge](http://emberobserver.com/badges/ember-cli-font-awesome-sass.svg)](http://emberobserver.com/addons/ember-cli-font-awesome-sass) [![License](https://img.shields.io/npm/l/ember-cli-font-awesome-sass.svg)](LICENSE.md)
 
 This addon installs font-awesome fonts files and sets you up to compile the
 font-awesome sass into your app.  Understand that this addon is for Ember
-applications that are compiling their styles using SASS.  __If your Ember
+applications that are compiling their styles using SASS.
+
+__If your Ember
 application is using pure CSS or LESS, than this addon is NOT for you.__
 
 ## What Does This Addon Do?
@@ -16,6 +18,11 @@ installed in your Ember-App.  In addition, the latest version of the
 from bower will be downloaded in order to acquire the fonts and 
 SASS source.  The relevant font files are copied to your Ember-App's
 `assets` directory and are then referred to from the stylesheet.
+
+## Requirements
+
+* Ember >= 1.13.0
+* Ember CLI
 
 ## Installation
 
@@ -35,7 +42,6 @@ source into your application's stylesheet:
     @import "ember-cli-font-awesome-sass";
     ...
 
-
 ### Alternate Font Path?
 
 By default, this addon takes care of the font paths for you.
@@ -49,6 +55,14 @@ the trailing slash!__
     $fa-font-path: '/some/absolute/path'
     @import 'ember-cli-font-awesome-sass';
     ...
+
+### Upgrading
+
+When working through the Ember upgrade process, I recommend
+invoking the `ember install ember-cli-font-awesome-sass` command once 
+you are done to get the latest version of the addon.  Notice that this
+will likely update the `font-awesome` bower dependency to the latest
+4.x.x version.
 
 ### Troubleshooting And Tips
 
